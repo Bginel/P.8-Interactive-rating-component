@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    line-height: 140%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box {
+    width: 350px;
+    height: 360px;
+    padding: 25px;
+    background-color: hsl(210, 20%, 17%);
+    border-radius: 15px;
+}
+
+#box2 {
+    width: 350px;
+    height: 360px;
+    padding: 25px;
+    background-color: hsl(210, 20%, 17%);
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+}
+
+
+img {
+    background-color:hsl(213, 19%, 19%);
+    padding: 13px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0px;
+}
+
+h3{
+    color:hsl(25, 97%, 53%) ;
+    margin: 20px 0px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+.number_list {
+    list-style-type: none;
+    margin: 20px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.numeros {
+    background-color:hsl(213, 19%, 19%);
+    color:hsl(217, 12%, 63%);
+    font-size: large;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+
+    transition: transform .3s;
+}
+
+.numeros:focus {
+    background-color:hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%);
+}
+
+ul li button:hover {
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(0, 0%, 100%);
+    transform: scale(1.1);
+}
+
+
+button {
+    width: 100%;
+    padding: 15px;
+    letter-spacing: 2px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+
+    transition: transform .3s;
+}
+
+button:hover {
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    transform: scale(1.1);
+}
+
+
+
+.attribution {
+    color: white;
+    position: absolute;
+    bottom: 3%;
+}
+colors{
+    color: hsl(25, 97%, 53%); /* cor do botao subtmit normal */ 
+    color: hsl(0, 0%, 100%); /* cor do botao submit hover */
+    color: hsl(217, 12%, 63%);
+    color: hsl(216, 12%, 54%); /* cor do hover numeros */
+    color: hsl(213, 19%, 18%);/* cor da caixa */
+    color: hsl(216, 12%, 8%);/* cor do fundo */
+}
+
+.teste1 {
+    background-color:hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%);
+}
+

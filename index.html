@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="container">
+
+        <main>
+            <div id="box">
+                <img src="images/icon-star.svg">
+                <h1>
+                    How did we do?
+                </h1>
+                <p>
+                    Please let us know how we did with your support request. All feedback is appreciated 
+                    to help us improve our offering!
+                </p>
+
+                  <ul class="number_list">
+                    <li>
+                        <button class="numeros" type="button" onclick="foco1(1)" onblur="perdeFoco()">1</button>
+                    </li>
+                    <li>
+                        <button class="numeros"  type="button" onclick="foco2(2)" onblur="perdeFoco()">2</button>
+                    </li>
+
+                    <li>
+                        <button class="numeros"  type="button" onclick="foco3(3)" onblur="perdeFoco()">3</button>
+                    </li>
+
+                    <li>
+                        <button class="numeros" type="button" onclick="foco4(4)" onblur="perdeFoco()">4</button>
+                    </li>
+
+                    <li>
+                        <button class="numeros"  type="button" onclick="foco5(5)" onblur="perdeFoco()">5</button>
+                    </li>
+                </ul>
+
+                <button class="submit" onclick="acao()" >SUBMIT</button>
+            </div>
+
+            <div id="box2">
+
+                <img src="images/illustration-thank-you.svg">
+
+                <h3>
+                    You selected <!--<span onclicl> </span> --> out of 5
+                </h3>
+                
+                <h1>
+                    Thank you!
+                </h1>
+                <p>
+                    We appreciate you taking the time to give a rating. If you ever need more support, don`t hesitate to get in touch!
+                </p>
+                  
+            </div>
+
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-dWYBWDr7Is" target="_blank">Frontend Mentor</a>. 
+                Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/Bginel">Bruno Ginel</a>.
+              </div>
+        </main>
+
+    </div>
+    
+
+
+    <script src="interacao.js"></script>
+</body>
+</html>
